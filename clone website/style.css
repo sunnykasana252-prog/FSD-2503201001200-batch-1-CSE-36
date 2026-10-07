@@ -1,0 +1,125 @@
+body{
+  background: #f4f7fb;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+  background: linear-gradient(90deg,#0f172a,#1e3a8a);
+}
+
+.navbar-brand{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-link{
+  color: white !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover{
+  color: #38bdf8 !important;
+}
+
+/* Hero Section */
+
+.hero{
+  height: 70vh;
+
+  background:
+  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+  url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop');
+
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+}
+
+.hero h1{
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.hero p{
+  font-size: 20px;
+}
+
+/* Section Title */
+
+.section-title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+/* Product Cards */
+
+.product-card{
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+
+  transition: 0.4s;
+
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.product-card:hover{
+  transform: translateY(-10px);
+}
+
+.product-card img{
+  height: 250px;
+  object-fit: cover;
+}
+
+.price{
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.btn-custom{
+  background: linear-gradient(90deg,#2563eb,#06b6d4);
+
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-custom:hover{
+  background: linear-gradient(90deg,#1d4ed8,#0891b2);
+  color: white;
+}
+
+/* Footer */
+
+footer{
+  background: #0f172a;
+  color: white;
+  padding: 20px 0;
+}
+
+.social-icons i{
+  font-size: 24px;
+  margin: 0 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.social-icons i:hover{
+  color: #38bdf8;
+  transform: scale(1.2);
+}
+
+/* Modal */
+
+.modal-content{
+  border-radius: 20px;
+}
